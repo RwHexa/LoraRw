@@ -1,0 +1,19 @@
+# Arduino / PlatformIO
+build/
+.pio/
+.pioenvs/
+*.elf
+*.bin
+*.hex
+
+# Lokale Werkzeug-Einstellungen
+.claude/settings.local.json
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Windows
+Thumbs.db
+desktop.ini
