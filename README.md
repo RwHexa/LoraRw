@@ -2,6 +2,11 @@
 
 Bidirektionale Punkt-zu-Punkt-Strecke zwischen zwei ESP32 Dev Boards über E90-DTU-Funkmodems.
 
+<img src="LoraBild.png" alt="E90-DTU(900SL22) Data Transceiver mit RS232-, RS485- und Antennenanschluss" width="340">
+
+*E90-DTU: links RS232 (DB9) zum MAX3232, darunter die RS485-Klemme und die Versorgung,
+rechts SMA-Antenne und die Betriebsart-Pins M0/M1.*
+
 Eingesetzte Modems: **E90-DTU(900SL22)** auf 868,125 MHz, Sendeleistung auf 13 dBm reduziert.
 Die Reduzierung ist Pflicht, nicht Geschmackssache — siehe docs/dtu-konfiguration.md.
 
